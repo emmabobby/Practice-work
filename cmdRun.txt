@@ -1,0 +1,5 @@
+//to compile the test
+javac -cp "junit-platform-console-standalone-1.10.2.jar;." Calculator.java CalculatorTest.java
+
+//to run the test
+java -jar junit-platform-console-standalone-1.10.2.jar -class-path. --scan-class-path --include-classname CalculatorTest
